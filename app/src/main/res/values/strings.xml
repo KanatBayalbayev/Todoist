@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Todo List</string>
+    <string name="floatingbutton">floatingButton</string>
+    <string name="to_do_list">To Do List</string>
 </resources>
