@@ -8,9 +8,9 @@
 
     <ImageView
         android:contentDescription="@string/logo"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="-60dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="-45dp"
         android:src="@drawable/logo2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +21,8 @@
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="90dp"
+        tools:listitem="@layout/note_item"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
 
